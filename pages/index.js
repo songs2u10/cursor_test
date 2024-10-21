@@ -1,6 +1,6 @@
 import Image from "next/image";
 import localFont from "next/font/local";
-import Card from '../components/Card';
+import Card from '../components/Card.js';
 import styled from 'styled-components';
 
 const geistSans = localFont({
