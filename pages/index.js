@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import Card from '../components/Card.js';
 import styled from 'styled-components';
 
+
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -13,6 +14,7 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+
 
 const HeroSection = styled.div`
     background-image: url('/path/to/your/image.jpg'); /* 배경 이미지 경로 */
